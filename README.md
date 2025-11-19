@@ -1,2 +1,29 @@
-# Model-Extractor
-A lightweight and modular Model Extractor tool for loading, analyzing, and exporting machine-learning models. Supports extracting model layers, parameters, weights, metadata, and architecture summaries from frameworks like PyTorch or TensorFlow. Ideal for ML engineers who need to inspect, debug, convert, or document model structures.
+# 🧩 Model Extractor – Inspect, Analyze & Export ML Models
+
+This repository contains an easy-to-use **Model Extractor** tool designed to load machine learning models and extract useful components such as:
+
+- Model architecture  
+- Trainable & non-trainable parameters  
+- Layer structure  
+- Weight tensors  
+- Metadata and config  
+- Export-ready summaries  
+
+It is ideal for debugging, model conversion, documentation, and research workflows.
+
+---
+
+## 🚀 Features
+
+- Load models from PyTorch or TensorFlow (based on your script)
+- Extract:
+  - Layer names & types
+  - Input/Output shapes
+  - Number of parameters
+  - Weight matrices & bias tensors
+- Save extracted info into:
+  - JSON files  
+  - Text summaries  
+  - Visual diagrams (optional)
+- CLI + Script usage
+- Clean, modular code structure
